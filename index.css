@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 80%;
+  margin: auto; */
+}
+
+.hero {
+ background-color: beige;
+ padding: 20px 0px;
+}
+
+
+.contact {
+ background-color: blue;
+}
+
+h1 {
+  color: #17313E;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.img-container {
+ display: flex; 
+ justify-content: center;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+  place-self: center;
+}
+
+.form-container {
+  width: 50%;
+  margin: auto;
+}
+
+.contact {
+  background-color: #F8F8F8;
+  padding: 20px 0px;
+}
+
+.get-in-touch {
+  text-align: center;
+}
+
+input, textarea {
+  border: 1px solid #17313E;
+  padding: 8px;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+footer {
+  background-color: #E5E0D8;
+}
+
+.footer {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #17313E;
+  color: white;
+  padding: 8px 12px;
+}
